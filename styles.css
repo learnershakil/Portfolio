@@ -242,3 +242,52 @@ footer p {
         font-size: 14px;
     }
 }
+
+/* Additional styles */
+/* Customize the appearance of the project slider */
+.project-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Add hover effect to project items */
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add spacing between project items */
+.project {
+    width: calc(50% - 10px);
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+/* Align the contact form inputs */
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+}
+
+/* Style the submit button on hover */
+.submit-button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style the social media icons */
+.social-media-icons a {
+    font-size: 20px;
+}
+
+.social-media-icons a:hover {
+    color: #bbb;
+}

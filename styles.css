@@ -125,6 +125,15 @@ h2 {
     margin-bottom: 40px;
 }
 
+.dare {
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.music {
+    width: 405px;
+}
+
 .project h3 {
     font-size: 24px;
     margin-bottom: 10px;
@@ -231,6 +240,14 @@ footer p {
 
     .skills-list li {
         font-size: 16px;
+    }
+
+    .dare {
+        width: 185px;
+    }
+
+    .music {
+        width: 185px;
     }
 
     #contact-form input,

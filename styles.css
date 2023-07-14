@@ -14,7 +14,6 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
 }
 
 nav ul {
@@ -125,13 +124,10 @@ h2 {
     margin-bottom: 40px;
 }
 
-.dare {
-    padding-bottom: 60px;
-    padding-top: 20px;
-}
-
-.music {
-    width: 405px;
+.project-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project h3 {
@@ -308,3 +304,4 @@ footer p {
 .social-media-icons a:hover {
     color: #bbb;
 }
+
